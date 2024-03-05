@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/edit/<%= students._id %>" method="post">
+
+
+
+        <label for="">Name :</label><input type="text" name="name" value="<%= students.name %>"  required/><br><br>
+        <!-- <label for="">E-mail:</label><input type="text" name="mail" value="<%= students.name %>"/><br><br> -->
+        <label for="">Age :</label><input type="text" name="age" value="<%= students.age %>"/><br><br>
+         <button>update</button>
+    </form>
+</body>
+</html>
